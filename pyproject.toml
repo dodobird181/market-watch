@@ -9,7 +9,8 @@ license = {text = "GNU v3"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "requests (>=2.32.4,<3.0.0)"
+    "requests (>=2.32.4,<3.0.0)",
+    "python-decouple (>=3.8,<4.0)"
 ]
 
 
