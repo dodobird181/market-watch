@@ -125,6 +125,10 @@ def run_monitor():
                 log(
                     f"Yield Curve Deep Inversion: 2y={y2}%, 10y={y10}%, Spread={spread:.2f}%"
                 )
+            elif spread >= 0.90:
+                log(
+                    f"Yield Curve Rising towards previous recession start positions, 2y={y2}%, 10y={y10}%, Spread={spread:.2f}%"
+                )
             else:
                 log(f"Yield Curve Normal/Steepening: Spread={spread:.2f}%")
 
